@@ -1,3 +1,11 @@
+/**
+* @file 10114LoansomeCarBuyer.cpp
+* @brief 
+* @author Juan Pablo Gaviria
+* @version 1
+* @date 2015-09-08
+*/
+
 #include <iostream>
 #include <cstring>
 #include <cstdio>
