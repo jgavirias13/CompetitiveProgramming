@@ -19,15 +19,15 @@ main(){
     double recorrido=u;
     int days=1;
     f = (f/100)*u;
-    while(recorrido>0 && recorrido<h){
+    while(recorrido>=0 && recorrido<=h){
       recorrido-=d;
-      if(recorrido<=0)break;
+      if(recorrido<0) break;
       ++days;
       if(u<=f)u=0;
       else u-=f;
       recorrido+=u;
     }
-    if(recorrido>=h) cout << "success on day " << days << endl;
+    if(recorrido>h) cout << "success on day " << days << endl;
     else cout << "failure on day " << days << endl;
     cin >> h;
   }
